@@ -1,6 +1,6 @@
 <h1 align="center">Frontend Mentor - 3-column Preview Card Component Solution</h1>
 
-<img src="https://github.com/NickODxyz/FM-nft-preview-card-component-main/blob/main/Preview.JPG?raw=true" ></img>
+<img src="https://github.com/NickODxyz/FM-3-column-preview-card-component-main/blob/main/Preview.JPG?raw=true" ></img>
 
 <br>
 
