@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+:root {
+    /* Primary */
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+
+    /* Neutral */
+    --text-clr-paragraphs: hsla(0, 0%, 100%, 0.75);
+    --backgrouns-headings-buttons: hsl(0, 0%, 95%);
+
+    --font-headings: "big shoulders display", Verdana, Geneva, Tahoma, sans-serif;
+    --font-paragraphs: "lexend deca", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Utilities */
+.margin-lg {
+    margin-bottom: 3.5rem;
+}
+.margin-sm {
+    margin-bottom: 2.5rem;
+}
+
+body {
+    font-family: var(--font-paragraphs);
+    font-size: 1.5rem;
+    color: var(--text-clr-paragraphs);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--backgrouns-headings-buttons);
+    width: 37.5rem;
+    height: 150.2rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2.4rem;
+}
+
+.sedans {
+    background-color: var(--bright-orange);
+    padding: 4.8rem 0;
+    border-radius: 0.8rem 0.8rem 0 0;
+    overflow: none;
+    flex-basis: 100%;
+}
+.sedans img {
+    width: 6.4rem;
+    height: 4rem;
+    margin-left: 4.8rem;
+}
+
+.suvs {
+    background-color: var(--dark-cyan);
+    padding: 4.8rem 0;
+    overflow: none;
+    flex-basis: 100%;
+}
+.suvs img {
+    width: 6.4rem;
+    height: 4rem;
+    margin-left: 4.8rem;
+}
+
+.luxury {
+    background-color: var(--very-dark-cyan);
+    padding: 4.8rem 0;
+    border-radius: 0 0 0.8rem 0.8rem;
+    overflow: none;
+    flex-basis: 100%;
+}
+.luxury img {
+    width: 6.4rem;
+    height: 4rem;
+    margin-left: 4.8rem;
+}
+
+.heading {
+    font-family: var(--font-headings);
+    font-size: 4rem;
+    font-weight: bold;
+    margin-left: 4.8rem;
+    line-height: 4.8rem;
+    text-transform: uppercase;
+}
+
+.text {
+    line-height: 2.5rem;
+    margin: 0 4.75rem 2.5rem 4.75rem;
+}
+
+/* Buttons */
+.sedans .btn {
+    background-color: var(--backgrouns-headings-buttons);
+    border-radius: 2.5rem;
+    border: 0.2rem solid transparent;
+    color: var(--bright-orange);
+    display: inline-block;
+    padding: 1.04rem 3.05rem;
+    line-height: 2.5rem;
+    margin-left: 4.8rem;
+}
+.sedans .btn:hover {
+    background-color: transparent;
+    border: 0.2rem solid var(--backgrouns-headings-buttons);
+    color: var(--backgrouns-headings-buttons);
+}
+
+.suvs .btn {
+    background-color: var(--backgrouns-headings-buttons);
+    border-radius: 2.5rem;
+    border: 0.2rem solid transparent;
+    color: var(--dark-cyan);
+    display: inline-block;
+    padding: 1.04rem 3.05rem;
+    line-height: 2.5rem;
+    margin-left: 4.8rem;
+}
+.suvs .btn:hover {
+    background-color: transparent;
+    border: 0.2rem solid var(--backgrouns-headings-buttons);
+    color: var(--backgrouns-headings-buttons);
+}
+
+.luxury .btn {
+    background-color: var(--backgrouns-headings-buttons);
+    border-radius: 2.5rem;
+    border: 0.2rem solid transparent;
+    color: var(--very-dark-cyan);
+    display: inline-block;
+    padding: 1.04rem 3.05rem;
+    line-height: 2.5rem;
+    margin-left: 4.8rem;
+}
+.luxury .btn:hover {
+    background-color: transparent;
+    border: 0.2rem solid var(--backgrouns-headings-buttons);
+    color: var(--backgrouns-headings-buttons);
+}
+
+@media screen and (min-width: 48rem) {
+    .wrapper {
+        width: 144rem;
+        height: 80rem;
+    }
+    .card {
+        flex-direction: row;
+        width: 92rem;
+        height: 50rem;
+        margin: 0;
+    }
+
+    .text {
+        margin-bottom: 8.3rem;
+    }
+
+    .sedans {
+        border-radius: 0.8rem 0 0 0.8rem;
+    }
+
+    .luxury {
+        border-radius: 0 0.8rem 0.8rem 0;
+    }
+}
+
+/* .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  } */
