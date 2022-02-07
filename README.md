@@ -16,8 +16,9 @@ I was struggling with getting my buttons hover effect to work without adding the
 
 <br>
 
-## Built with 
+## Built with
 
+- Mobile first workflow
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
@@ -25,9 +26,9 @@ I was struggling with getting my buttons hover effect to work without adding the
 <br>
 
 ## Site links
-Hosted [Live Site]()
+Hosted [Live Site](https://nickodxyz.github.io/FM-3-column-preview-card-component-main/)
 <br>
-Frontend Mentor [Solution Page]()
+Frontend Mentor [Solution Page](https://www.frontendmentor.io/solutions/3column-preview-card-mobile-first-workflow-Pg-i79RLq)
 
 <br>
 
