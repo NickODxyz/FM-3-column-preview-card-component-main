@@ -154,6 +154,7 @@ a {
 
 @media screen and (min-width: 48rem) {
     .wrapper {
+        align-items: flex-start;
         width: 144rem;
         height: 80rem;
     }
@@ -161,7 +162,7 @@ a {
         flex-direction: row;
         width: 92rem;
         height: 50rem;
-        margin: 0;
+        margin: 17.1rem 0 0 0;
     }
 
     .text {
