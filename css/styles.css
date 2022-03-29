@@ -38,6 +38,7 @@ a {
 
 .wrapper {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: var(--backgrouns-headings-buttons);
@@ -154,7 +155,8 @@ a {
 
 @media screen and (min-width: 48rem) {
     .wrapper {
-        align-items: flex-start;
+        align-items: center;
+        justify-content: center;
         width: 144rem;
         height: 80rem;
     }
@@ -162,7 +164,7 @@ a {
         flex-direction: row;
         width: 92rem;
         height: 50rem;
-        margin: 17.1rem 0 0 0;
+        /* margin: 17.1rem 0 0 0; */
     }
 
     .text {
@@ -178,10 +180,11 @@ a {
     }
 }
 
-/* .attribution {
+.attribution {
     font-size: 11px;
     text-align: center;
-  }
-  .attribution a {
+    color: black;
+}
+.attribution a {
     color: hsl(228, 45%, 44%);
-  } */
+}
